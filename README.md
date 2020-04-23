@@ -15,3 +15,10 @@ WebdriverIO v5 : https://webdriver.io
 VS Code: https://code.visualstudio.com/
 
 Node: https://nodejs.org/en/
+
+
+NOTE: for windows execution commands can be different
+in this case please use:
+  "scripts": {
+    "test": "node_modules/.bin/wdio ./wdio.conf.js"
+  },
